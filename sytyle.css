@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    padding:0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.first{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 150px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+      
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(162, 226, 244);
+    font-size: 20px;
+}
+.brand{
+    
+    font-size: 60px;
+    color: rgb(50, 133, 210);
+    font-weight: 300;
+    transition: 0.5s;
+}
+.brand h1:hover{
+    -webkit-text-stroke: 2px rgb(17, 0, 255) ;
+    color: transparent;
+}
+.bgvideo{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9){
+    .bgvideo{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .bgvideo{
+        width: auto;
+        height: 100%;
+    }
+}
+
+.contact{
+    padding: 70px 6%;
+    position: absolute;
+    width: fit-content;
+    font-size: 30px;
+    
+}
+.no1{
+    padding: 130px 6%;
+    position: absolute;
+    width: fit-content;
+    font-size: 20px;
+    
+}
+.no2{
+    padding: 160px 6%;
+    position: absolute;
+    width: fit-content;
+    font-size: 20px;
+    
+}
+.insta{
+    padding: 160px 6%;
+    position: absolute;
+    width: fit-content;
+    font-size: 20px;
+    
+}
+.homemain{
+    
+    background-color: #64d5f1;
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+    background-color: #4cd4f6;
+
+}
+.aboutc{
+    padding: 100px 5%;
+    font-size: 20px;
+}
+.founder{
+    padding:10px 9% ;
+    width: 500px;
+}
+.partner1{
+    padding:10px 9% ;
+    width: 500px; 
+}
+.partner2{
+    padding:5px 3% ;
+    width: 600px; 
+}
+.partner3{
+    padding:10px 9% ;
+    width: 500px; 
+}
+.fishes ul li{
+    padding: 13px 6%;
+    font-size: 20px;
+}
+.green{
+    width:300px;
+}
+.bamboo{
+    width:300px;
+}
+.fishes h3{
+    padding: 13px 6%;
+}
+.loogo{
+    width:150px;
+}
+.contact1{
+    text-decoration: none;
+    color: rgb(0,0,0);
+    font-size: 20px;
+
+}
+.contactm{
+    background-color: #64d5f1;
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+    background-color: #4cd4f6;
+
+
+}
+.phone ul li{
+    padding: 10px 6%;
+    font-size: 20px;
+
+}
+.phone h2{
+    padding: 10px 6%;
+}
+.social a{
+    text-decoration: none;
+    color: rgb(0,0,0);
+    font-size: 20px;
+    padding:1px 6% ;
+
+}
+.servicess{
+    background-color: #64d5f1;
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+    background-color: #4cd4f6;
+}
+.ser p{
+    padding: 25px 6%;
+    font-size: 20px;
+
+}
+.ser ul li{
+    padding: 10px 15%;
+    font-size: 20px;
+}
